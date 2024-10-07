@@ -120,6 +120,6 @@ describe('EducaOnlineController', () => {
         conteudo: 'teste 2',
         relationAutorId: idAutor,
       })
-      .expect(500);
+      .expect(200);
   });
 });
